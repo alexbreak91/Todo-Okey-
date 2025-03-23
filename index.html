@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Okey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Todo Okey</h1>
+    
+    <input type="text" id="taskInput" placeholder="Aggiungi una nuova task...">
+    <button id="addTaskButton">Aggiungi</button>
+    
+    <input type="file" id="backgroundInput" accept="image/*">
+    
+    <div class="task-container">
+        <div class="task-section">
+            <h2>Da Fare</h2>
+            <ul id="todoList"></ul>
+        </div>
+        <div class="task-section">
+            <h2>Fatto</h2>
+            <ul id="doneList"></ul>
+        </div>
+    </div>
+    
+    <div class="expense-section">
+        <h2>Nota Spese</h2>
+        <ul id="expenseList"></ul>
+    </div>
+    
+    <button id="assistantButton">🎤 Assistente Vocale</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
